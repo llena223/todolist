@@ -1,0 +1,87 @@
+body {
+   background-color: rgba(255, 192, 203, 0.344);
+   height: 100%;
+}
+.add-todo-wrapper {
+   display: flex;
+   
+   align-items:center;
+   justify-content: center;
+   
+   
+}
+#add-task-btn {
+   background-color: rgba(245, 226, 229, 0.804);
+   margin-left: 5px;
+   z-index: 2;
+   
+}
+.flex-wrapper {
+
+}
+.center {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   max-width: 350px;
+   background-color: pink;
+   height: 60px;
+   z-index: 0;
+   border-radius: 50px;
+   
+}
+.todo-item {
+   max-width: 350px;
+   height: 60px;
+   border-color: pink;
+   border-radius: 50px;
+   
+}
+.todo-item {
+   position: relative;
+   display: flex;
+   margin: 0 0 10px 0;
+   max-width: 350px;
+   height: 60px;
+   max-height: auto;
+   background-color: pink;
+   border-radius: 50px;
+   align-items:center;
+justify-content: center;
+}
+
+.buttons {
+  /* left: 99px;*/
+   
+   position: relative;
+   display: flex;
+  
+   
+}
+.wrapper {
+   position: absolute;
+   right: 60px;
+   bottom: 40px;
+}
+.btn-complete {
+   position: absolute;
+   right: 0px;
+}
+
+.btn-delete {
+   position: absolute;
+}
+.desc-wrap {
+   max-width: 200px;
+   min-height: 59px;
+  max-height: auto;
+  align-items:center;
+  justify-content: center;
+  display: flex; 
+}
+.description {
+   
+}
+.checked {
+   background-color: gray;
+}
